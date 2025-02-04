@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarShop - Maşyn Söwda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CarShop</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Baş Sahypa</a></li>
+                <li><a href="#">Maşynlar</a></li>
+                <li><a href="#">Habarlaşmak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="car-list">
+        <h2>Elýeterli Maşynlar</h2>
+        <div class="car-card">
+            <img src="car1.jpg" alt="BMW X5">
+            <h3>BMW X5</h3>
+            <p>Ýyl: 2020 | Baha: $35,000</p>
+            <button>Has giňişleýin</button>
+        </div>
+        <div class="car-card">
+            <img src="car2.jpg" alt="Toyota Camry">
+            <h3>Toyota Camry</h3>
+            <p>Ýyl: 2019 | Baha: $25,000</p>
+            <button>Has giňişleýin</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CarShop. Ähli hukuklar goralan.</p>
+    </footer>
+</body>
+</html>
